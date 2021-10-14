@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# Security configuration
+#
+config M_RECYLE
+	bool "for rm: backup"
+	default n
+	help
+	  for rm command: ~/.backup/
+
